@@ -8,8 +8,7 @@ from datetime import datetime
 #This is needed because the token expires every two weeks.
 def update_bearer():
     #Access the keys that allow us to get a bearer token in the first place (they are stored as environment variables)
-    #PUBLIC_KEY = "890efa26-03ba-4885-b820-d325f76a8a16"
-    #PRIVATE_KEY = "7b7b85bc-4114-44b8-b215-66c034ef2c9f" 
+    
     PUBLIC_KEY = os.environ.get('TCG_PUBLIC_KEY')
     PRIVATE_KEY = os.environ.get('TCG_PRIVATE_KEY')
 
