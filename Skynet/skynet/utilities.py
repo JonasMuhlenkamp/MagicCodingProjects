@@ -158,7 +158,7 @@ def check_card(card):
     #if bool(card["promo"]) == True:
     #    return False
 
-    if card["set"] == "mb1" or card["set"] == "fmb1" or card["set"] == "lea" or card["set"] == "leb" or card["set"] == "sld":
+    if card["set"] == "mb1" or card["set"] == "sum" or card["set"] == "fmb1" or card["set"] == "lea" or card["set"] == "leb" or card["set"] == "sld":
         return False
     
     if card["type_line"].__contains__("Basic"):
